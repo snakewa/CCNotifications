@@ -68,30 +68,4 @@
 	}
 }
 
-- (void) updateColor
-{
-	//Gradient code
-	ccColor3B colorFinal = ccc3(0, 50, 100);
-	
-	squareColors[0] = color_.r;
-	squareColors[1] = color_.g;
-	squareColors[2] = color_.b;
-	squareColors[3] = opacity_;
-	
-	squareColors[4] = color_.r;
-	squareColors[5] = color_.g;
-	squareColors[6] = color_.b;
-	squareColors[7] = opacity_;
-	
-	squareColors[8] = colorFinal.r;
-	squareColors[9] = colorFinal.g;
-	squareColors[10] = colorFinal.b;
-	squareColors[11] = opacity_;
-	
-	squareColors[12] = colorFinal.r;
-	squareColors[13] = colorFinal.g;
-	squareColors[14] = colorFinal.b;
-	squareColors[15] = opacity_;
-}
-
 @end
